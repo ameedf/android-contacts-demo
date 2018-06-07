@@ -1,6 +1,13 @@
 package com.ameed.contacts.model;
 
 public class Contact {
+    public static final String CONTACTS = "CONTACTS";
+    public static final String ID = "ID";
+    public static final String NAME = "NAME";
+    public static final String PHONE = "PHONE";
+    public static final String EMAIL = "EMAIL";
+    public static final String AGE = "AGE";
+
     private long id;
     private String name;
     private String phone;
