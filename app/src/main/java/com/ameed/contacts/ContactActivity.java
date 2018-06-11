@@ -42,7 +42,8 @@ public class ContactActivity extends AppCompatActivity {
 
     private String extractText(int id) {
         final EditText editText = findViewById(id);
-        final String name = editText.getText().toString();
-        return name;
+        final String value = editText.getText().toString();
+        editText.setText("");
+        return value;
     }
 }
